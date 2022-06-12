@@ -10,4 +10,4 @@
   - $ cmake ..
   - $ make
   - $ ./test
-- The 5 test all pass, but some added tests might fail.  
+- The 5 tests all pass, but some added tests might fail.  
