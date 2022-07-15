@@ -1,4 +1,4 @@
-# introduction to gtest (google testing) 
+# Introduction to gtest (google testing) 
 - This lab focuses on how Google Unit Test works.
 - Gtest checks a class or a code for its correct functionality by checking edge cases and verify if we get the desired output it intends to do before implimenting it to the rest of the project.
 - To use the gtest submodule, we need to clone the open source GitHub repository, this allows us to use up to date gtest version:
