@@ -24,12 +24,12 @@ add_executable(c-echo
     src/main_test.cpp
 )
 
-add_executable(test
+add_executable(lab2_tests
     src/test.cpp
 )
 
-TARGET_LINK_LIBRARIES(test gtest)
-TARGET_COMPILE_DEFINITIONS(test PRIVATE gtest_disable_pthreads=ON)
+TARGET_LINK_LIBRARIES(lab2_tests gtest)
+TARGET_COMPILE_DEFINITIONS(lab2_tests PUBLIC gtest_disable_pthreads=ON)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

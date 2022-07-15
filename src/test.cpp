@@ -20,10 +20,10 @@ TEST(EchoTest, UpperCase) {
 }
 
 TEST(EchoTest, SpecialCharacter) {
-       char* test_val[2];
-       test_val[0] = "../c-echo";
-       test_val[1] = "!@#";
-       EXPECT_EQ("!@#", echo(2,test_val));
+    char* test_val[2];
+    test_val[0] = "../c-echo";
+    test_val[1] = "!@#";
+    EXPECT_EQ("!@#", echo(2,test_val));
 }
 
 TEST(EchoTest, EmptyString) { 
