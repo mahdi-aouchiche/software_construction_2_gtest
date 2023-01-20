@@ -1,4 +1,4 @@
-#include "../c-echo.h"
+#include "../header/c-echo.hpp"
 #include "gtest/gtest.h"
 
 using namespace std;

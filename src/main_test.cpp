@@ -1,4 +1,4 @@
-#include "../c-echo.h"
+#include "../header/c-echo.hpp"
 
 int main(int argv, char** argc)
 {
