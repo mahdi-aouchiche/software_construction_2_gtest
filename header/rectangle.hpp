@@ -1,5 +1,5 @@
-#ifndef RECTANGLE_HPP
-#define RECTANGLE_HPP
+#ifndef __RECTANGLE_HPP__
+#define __RECTANGLE_HPP__
 
 class Rectangle {
 	private:
@@ -11,5 +11,5 @@ class Rectangle {
 		int area();
 };
 
-#endif /* RECTANGLE_HPP*/
+#endif // __RECTANGLE_HPP__
 
