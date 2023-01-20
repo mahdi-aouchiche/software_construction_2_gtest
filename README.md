@@ -16,7 +16,7 @@ git submodule add https://github.com/google/googletest.git
 ## To run the project nicely run the following commands
 
 ```c++
-cmake -S . -B
+cmake -S . -B build
 cmake --build build/
 ```
 
