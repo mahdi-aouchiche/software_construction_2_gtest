@@ -29,6 +29,6 @@ cmake --build build/
 ./build/standard_area_calculator
 
 // lab2 executables 
-./build/c-echo
+./build/c-echo <input to be printed>
 ./build/lab2_tests
 ```
