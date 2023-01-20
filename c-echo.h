@@ -1,5 +1,9 @@
 #include <iostream>
 
+/* 
+  The echo function prints whatever that is given
+  as an argument in the command line.
+*/
 std::string echo(int length, char** chars)
 { 
 	std::string ret = "";
